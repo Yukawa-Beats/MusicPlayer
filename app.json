@@ -37,7 +37,7 @@
     },
     "LOG_GROUP": {
       "description": "ID of the group to send playlist If CHAT is a Group, if channel thenleave blank",
-      "required": true
+      "required": false
     },
     "ADMINS": {
       "description": "ID of Users who can use Admin commands(for multiple users seperated by space)",
@@ -50,7 +50,7 @@
     },
     "MAXIMUM_DURATION": {
       "description": "Maximum duration of song to be played using /play or /dplay",
-      "value": " ",
+      "value": "15",
       "required": false
     },
     "STREAM_URL": {
